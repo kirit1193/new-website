@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">Facebook</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Twitter</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Telegram</a></li>
+  </ul>
+  <nav class="light-blue blue darken-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">PentestBox</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="https://pentestbox.com/blog/">Blog</a></li>
+        <li><a href="https://docs.pentestbox.com">Documentation</a></li>
+        <li><a href="https://docs.pentestbox.com/faq.html">FAQ</a></li>
+        <li><a href="https://forum.pentestbox.com">Tools</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Connect<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="waves-effect waves-light btn" href="https://manifestsecurity.com">A ManifestSecurity.com Project</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">PentestBox</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">PentestBox is an Opensource PreConfigured Portable Penetration Testing Environment for Windows Operating System</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+  <a class="btn" onclick="Materialize.toast('I am a toast', 4000)">Toast!</a>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">insert_emoticon</i></h2>
+            <h5 class="center">Easy to Use</h5>
+
+            <p class="light">It is a commandline utility which is all what you want. You can get to know about the commands on tools.pentestbox.com.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Simple Design</h5>
+
+            <p class="light">It is the same green font on black terminal but in an modern way.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Performance</h5>
+
+            <p class="light">PentestBox directly runs on host machine instead of virtual machines, so performance is obvious.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">No Dependencies Required</h5>
+
+            <p class="light">All the dependencies required by tools are inside PentestBox, so you can even run PentestBox on freshly installed windows without any hassle.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">usb</i></h2>
+            <h5 class="center">Portable</h5>
+
+            <p class="light">PentestBox is entirely portable, so now you can carry your own Penetration Testing Environment on a USB stick. It will take care of all dependencies and configuration required to run tools.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Linux Environment</h5>
+
+            <p class="light">PentestBox contains nearly all linux utilities like bash, cat, chmod, curl, git, gzip, ls, mv, ps, ssh, sh, uname and others. It even contains your favourite text editor "vim". For complete list, please look at tools.pentestbox.com/#linux-utilities.
+Because of this most of the pentesting tools which were earlier compatible only with Linux are working smoothly in PentestBox.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">No Drivers Issue</h5>
+
+            <p class="light">Windows has already large support of drivers for Graphic Card and wireless. So now you don't have to worry about drivers compaitability issues. For Example now you can use your GPU power to crack hashes using Project RainbowCrack which is particularly not compaitable on linux environment.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">view_module</i></h2>
+            <h5 class="center">Modular</h5>
+
+            <p class="light">In the making of PentestBox we have included only the best tools , but in that process we have missed some tools which you might want to use. In that case you can easily install those tools using toolsmanager present inside PentestBox, it can install/update/Uninstall tools which are not there in PentestBox.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">memory</i></h2>
+            <h5 class="center">Less Memory Usage</h5>
+
+            <p class="light">PentestBox runs on host machine without any need for virtual machine. So it only need's 20 MB for launching compared to atleast 2GB of RAM need for running virtual machine distributions.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">storage</i></h2>
+            <h5 class="center">Less Disk Usage</h5>
+
+            <p class="light">It is very light on Disk as well, it only acquires less than third of linux pentesting distro do.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">computer</i></h2>
+            <h5 class="center">Inbuilt Browser</h5>
+
+            <p class="light">PentestBox contains a version of Mozilla Firefox Browser with nearly all security addons. To know the complete list of addons, please click here.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Cool Update Feature</h5>
+
+            <p class="light">It contains an update feature through which you can keep your tools updated. To know more about update feature, please click here.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">PentestBox</h5>
+          <p class="grey-text text-lighten-4">PentestBox is a Portable Penetration Testing Distribution for Windows Environments. It is based on ConEmu and cmder. Credits goes to their developers for providing such an awesome platform to build up PentestBox.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Documentation</a></li>
+            <li><a class="white-text" href="#!">FAQ</a></li>
+            <li><a class="white-text" href="#!">Blog</a></li>
+            <li><a class="white-text" href="#!">Tools List</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Facebook</a></li>
+            <li><a class="white-text" href="#!">Twitter</a></li>
+            <li><a class="white-text" href="#!">Telegram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Copyright <a class="orange-text text-lighten-3" href="http://manifestsecurity.com">ManifestSecurity</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
