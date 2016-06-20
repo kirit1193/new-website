@@ -4133,7 +4133,7 @@ nav .brand-logo {
   position: absolute;
   color: #fff;
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   padding: 0;
   white-space: nowrap;
 }
@@ -4242,9 +4242,10 @@ nav .input-field label.active {
 }
 
 .navbar-fixed {
-  position: relative;
+  position: fixed;
   height: 56px;
   z-index: 998;
+  padding-left: 25px;
 }
 
 .navbar-fixed nav {
