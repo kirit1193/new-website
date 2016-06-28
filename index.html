@@ -237,6 +237,21 @@ Because of this most of the pentesting tools which were earlier compatible only 
 			     
 			    <p>Please do not download PentestBox from another source other than link given above.</p>
 			   </div>
+
+
+
+			     <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 </div>
   </div>
   </div>
@@ -291,6 +306,13 @@ Because of this most of the pentesting tools which were earlier compatible only 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript">
+  	 $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+        
+  </script>
 
   </body>
 </html>
