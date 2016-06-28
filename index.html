@@ -9,6 +9,31 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>.typed-cursor{opacity:1;font-weight:100;-webkit-animation:blink 0.7s infinite;-moz-animation:blink 0.7s infinite;-ms-animation:blink 0.7s infinite;-o-animation:blink 0.7s infinite;animation:blink 0.7s infinite;}@-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+    </style>
 </head>
 <body>
   <ul id="dropdown1" class="dropdown-content">
@@ -341,31 +366,34 @@ Because of this most of the pentesting tools which were earlier compatible only 
 
 
   <script>
-      $(function(){
+     
+    $(function(){
 
-          $("#typed").typed({
-              strings: ["Welcome to PentestBox Website.", "This is PentestBox Console", "You will get same console after downloading it.", "Check it out it's features below","Hope you will like it :)"],
-              typeSpeed: 1,
-              backDelay: 500,
-              loop: false,
-              contentType: 'html', // or text
-              // defaults to false for infinite loop
-              loopCount: false,
-              callback: function(){ foo(); },
-              resetCallback: function() { newTyped(); }
-          });
+        $("#typed").typed({
+            strings: ["Welcome to PentestBox Website.", "This is PentestBox Console", "You will get same console after downloading it.", "Check it out it's features below","Hope you will like it :)"],
+            typeSpeed: 1,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
 
-          $(".reset").click(function(){
-              $("#typed").typed('reset');
-          });
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
 
-      });
+    });
 
-      function newTyped(){ /* A new typed object */ }
+    function newTyped(){ /* A new typed object */ }
 
-      function foo(){ console.log("Callback"); }
+    function foo(){ console.log("Callback"); }
 
+    
       </script>
+      <script src="js/typed.js" type="text/javascript"></script>
      <style>
 
    .terminal {
