@@ -231,20 +231,51 @@ Because of this most of the pentesting tools which were earlier compatible only 
 
 
 			  <h5>Download PentestBox</h5>
-			  <a class="waves-effect waves-light" href="https://sourceforge.net/projects/pentestbox/files/PentestBox-v2.2.exe/download" target="_blank">
-			    <img src="img/sf-download-button.png"></a>
-			    <a class="waves-effect waves-light" href="https://pentestbox.com/PentestBox-v2.2.torrent" target="_blank">
-			    <img src="img/torrent-button.png"></a>
+			   <a class="waves-effect waves-light btn modal-trigger" href="#modal1">PentestBox</a>
 
 
 			  <h5>Download PentestBox with Metaspoilt: </h5>
-			  <a class="waves-effect waves-light" href="https://sourceforge.net/projects/pentestbox/files/PentestBox-with-Metasploit-v2.2.exe/download" target="_blank">
-			    <img src="img/sf-download-button.png"></a>
-			    <a class="waves-effect waves-light" href="https://pentestbox.com/PentestBox-with-Metasploit-v2.2.torrent" target="_blank">
-			    <img src="img/torrent-button.png"></a>
+			  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">PentestBox with Metaspoilt</a>
+
 
 			    <p>Please do not download PentestBox from another source other than link given above.</p>
 			   </div>
+
+
+
+			    
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+    <p>Download from sourceforge</p>
+      <a class="waves-effect waves-light" href="https://sourceforge.net/projects/pentestbox/files/PentestBox-v2.2.exe/download" target="_blank">
+			    <img src="img/sf-download-button.png"></a>
+			    <br>
+
+	<p>Download from Torrent</p>
+			    <a class="waves-effect waves-light" href="https://pentestbox.com/PentestBox-v2.2.torrent" target="_blank">
+			    <img src="img/torrent-button.png"></a>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+    <p>Download from sourceforge</p>
+     <a class="waves-effect waves-light" href="https://sourceforge.net/projects/pentestbox/files/PentestBox-with-Metasploit-v2.2.exe/download" target="_blank">
+			    <img src="img/sf-download-button.png"></a>
+			    <br>
+	<p>Download from Torrent</p>
+			    <a class="waves-effect waves-light" href="https://pentestbox.com/PentestBox-with-Metasploit-v2.2.torrent" target="_blank">
+			    <img src="img/torrent-button.png"></a>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
 </div>
   </div>
   </div>
@@ -299,6 +330,16 @@ Because of this most of the pentesting tools which were earlier compatible only 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+<<<<<<< HEAD
+  <script type="text/javascript">
+  	 $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+        
+  </script>
+
+=======
   <script>
       $(function(){
 
@@ -365,5 +406,6 @@ Because of this most of the pentesting tools which were earlier compatible only 
   }
   }
    </style>
+>>>>>>> f6aeeb3cc7f8ba289b5f754c6a2cb843a05e51af
   </body>
 </html>
