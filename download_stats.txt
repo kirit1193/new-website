@@ -1,0 +1,21 @@
+The only way to show that 50% users of Penetration Testing Distros users uses windows is too look on publicly available download stats.
+After downloading users normally install distributions on virtualbox/vmware or on a dualboot environment.
+
+Also if you would see share of Windows Operating System combined over the world then it around 80% [https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Desktop_and_laptop_computers ]
+
+Below are some Download stats, download stats for other distributions are not available.
+
+(1) Samurai Web Testing Framework - 66% windows download
+https://sourceforge.net/projects/samurai/files/stats/timeline?dates=2013-05-27+to+2015-06-02
+
+(2)Santoku Linux - 60% windows download
+https://sourceforge.net/projects/santoku/files/stats/timeline?dates=2013-05-27+to+2015-06-02
+
+(3)Parrot OS - 59% windows download
+https://sourceforge.net/projects/parrotsecurity/files/stats/os?dates=2013-06-16%20to%202015-06-09
+
+(4)Matriux - 69% windows download
+https://sourceforge.net/projects/matriux/files/stats/os?dates=2010-11-19%20to%202015-07-01
+
+Above stats doesn't really matter, if you are a windows user then PentestBox is something you can have for your pentesting needs.
+Thanks
