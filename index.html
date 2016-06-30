@@ -35,6 +35,46 @@
             100% { opacity:1; }
         }
     </style>
+         <style>
+
+   .terminal {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  #header_cmd{
+     border: 1px solid grey;
+    background-color: white;
+    position: relative;
+    margin: 0px;
+    top: -7px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    padding-top: 0.5px;
+    margin-top: -3px;
+    margin-left: 1.5px;
+  }
+
+  .shell {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 17px;
+    line-height: 28px;
+    color: #cbcbcb;
+    background-color: #3d3d3d;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: left;
+    display: block;
+  }
+  .shell p {
+    margin: 0;
+    font-weight: none;
+    -webkit-backface-visibility: hidden;
+  }
+  }
+   </style>
 </head>
 <body>
   <ul id="dropdown1" class="dropdown-content">
@@ -403,7 +443,7 @@ Because of this most of the pentesting tools which were earlier compatible only 
         <div class="row">
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text"><img src="flags/ru.svg" width=50 height=40> Russian</h2>
+              <h4 class="left-align"><img src="flags/ru.svg" width=50 height=40> Russian</h4>
               <ul>
                 <li><a href="https://habrahabr.ru/company/pentestit/blog/260913/" target="_blank"><i class="material-icons">label_outline</i> PentestBox — портативная сборка популярных security утилит</a></li>
                 <li><a href="https://habrahabr.ru/company/pentestit/blog/276477/" target="_blank"><i class="material-icons">label_outline</i> Лучшие дистрибутивы для проведения тестирования на проникновение</a></li>
@@ -412,7 +452,7 @@ Because of this most of the pentesting tools which were earlier compatible only 
           </div>
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text"><img src="flags/fr.svg" width=50 height=40> French</h2>
+              <h4 class="left-align"><img src="flags/fr.svg" width=50 height=40> French</h4>
               <ul>
                 <li><a href="http://korben.info/pentestbox.html" target="_blank"><i class="material-icons">label_outline</i> PentestBox -Korben</a></li>
                 <li><a href="http://www.funinformatique.com/pentestbox-sinitier-au-pentest-sous-windows/" target="_blank"><i class="material-icons">label_outline</i> PentestBox: s’initier au pentest sous Windows</a></li>
@@ -420,7 +460,7 @@ Because of this most of the pentesting tools which were earlier compatible only 
           </div>
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text"><img src="flags/es.svg" width=50 height=40> Spanish</h2>
+              <h4 class="left-align"><img src="flags/es.svg" width=50 height=40> Spanish</h4>
               <ul>
                 <li><a href="http://blog.segu-info.com.ar/2015/08/pentestbox-pentesting-portable-en-linea.html" target="_blank"><i class="material-icons">label_outline</i> PentestBox: Pentesting portable en línea de comandos</a></li>
                 <li><a href="http://www.cyberhades.com/2015/06/04/coleccion-de-herramientas-de-pentesting-para-entornos-windows/" target="_blank"><i class="material-icons">label_outline</i> Colección de herramientas de “pentesting” para entornos Windows</a></li>
@@ -432,14 +472,14 @@ Because of this most of the pentesting tools which were earlier compatible only 
         <div class="row">
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text"><img src="flags/tr.svg" width=50 height=40> Turkish</h2>
+              <h4 class="left-align"><img src="flags/tr.svg" width=50 height=40> Turkish</h4>
               <ul>
                 <li><a href="http://ramazanguclu.com.tr/windows-ortaminda-linux-rahatligi-pentestbox-tools/" target="_blank"><i class="material-icons">label_outline</i> Windows Ortamında Linux Rahatlığı – PentestBox Tools</a></li>
             </div>
           </div>
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text"><img src="flags/pt.svg" width=50 height=40> Portugese</h2>
+              <h4 class="left-align"><img src="flags/pt.svg" width=50 height=40> Portugese</h4>
               <ul>
                 <li><a href="http://www.100security.com.br/pentestbox/" target="_blank"><i class="material-icons">label_outline</i> PenTestBox – Ferramenta de PenTest (Windows)</a></li>
                 <li><a href="http://securityattack.com.br/pentest-box-ferramentas-de-seguranca-no-windows/" target="_blank"><i class="material-icons">label_outline</i> Pentest Box – Ferramentas de segurança no Windows</a></li>
@@ -447,7 +487,7 @@ Because of this most of the pentesting tools which were earlier compatible only 
           </div>
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text"><img src="flags/ro.svg" width=50 height=40> Romanian</h2>
+              <h4 class="left-align"><img src="flags/ro.svg" width=50 height=40> Romanian</h4>
               <ul>
                 <li><a href="http://www.worldit.info/articole/cum-poti-face-teste-de-securitate-it-penetration-testing-folosind-windows/" target="_blank"><i class="material-icons">label_outline</i> Cum poti face teste de securitate IT (Penetration Testing) folosind Windows?</a></li>
             </div>
@@ -456,21 +496,21 @@ Because of this most of the pentesting tools which were earlier compatible only 
         <div class="row">
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text">Arabic</h2>
+              <h4 class="left-align">Arabic</h4>
               <ul>
                 <li><a href="http://www.th3professional.com/2015/09/pentest-box.html" target="_blank"><i class="material-icons">label_outline</i> Pentest Box منصة اختبار الاختراق والحماية لمستخدمي ويندوز</a></li>
             </div>
           </div>
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text"><img src="flags/th.svg" width=50 height=40> Thai</h2>
+              <h4 class="left-align"><img src="flags/th.svg" width=50 height=40> Thai</h4>
               <ul>
                 <li><a href="https://www.techtalkthai.com/pentest-box-portable-tool-for-windows/" target="_blank"><i class="material-icons">label_outline</i> Pentest Box: เครื่องมือทดสอบเจาะระบบแบบพกพาสำหรับ Windows</a></li>
             </div>
           </div>
           <div class="col s12 m4 l4">
             <div class="icon-block">
-              <h2 class="left-align light-blue-text">English</h2>
+              <h4 class="left-align">English</h4>
               <ul>
                 <li><a href="http://www.kitploit.com/2016/03/pentestbox-20-portable-penetration.html" target="_blank"><i class="material-icons">label_outline</i> PentestBox 2.0 - Portable Penetration Testing Distribution for Windows Environments</a></li>
                 <li><a href="http://www.ehacking.net/2015/06/pentestbox-penetration-testing.html" target="_blank"><i class="material-icons">label_outline</i> PentestBox: Penetration Testing Distribution for Windows</a></li>
@@ -580,46 +620,6 @@ Because of this most of the pentesting tools which were earlier compatible only 
 
   	});
       </script>
-     <style>
-
-   .terminal {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-
-  #header_cmd{
-     border: 1px solid grey;
-    background-color: white;
-    position: relative;
-    margin: 0px;
-    top: -7px;
-    padding-bottom: 7px;
-    padding-right: 12px;
-    padding-top: 0.5px;
-    margin-top: -3px;
-    margin-left: 1.5px;
-  }
-
-  .shell {
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
-    font-size: 17px;
-    line-height: 28px;
-    color: #cbcbcb;
-    background-color: #3d3d3d;
-    overflow: hidden;
-    padding: 10px;
-    margin: 0;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    text-align: left;
-    display: block;
-  }
-  .shell p {
-    margin: 0;
-    font-weight: none;
-    -webkit-backface-visibility: hidden;
-  }
-  }
-   </style>
 
   </body>
 </html>
